@@ -10,11 +10,18 @@ This script converts the XML format into JSON for individual processing or PARQU
 
 1. Install dependencies with `pipenv install`
 2. Download data from [clinicaltrials.gov](https://clinicaltrials.gov/ct2/resources/download) 
-3. Run the script `ct-xml-to-json.py`
+3. Run the script `ct-xml-to-json.py` to convert the XML data into JSON
+4. Run the script `ct-json-to-parquet.py` to convert the JSON data into PARQUET
 
 ```
 python3 ct-xml-to-json.py 
     --schema ./schemas/public.xsd 
     --src ./data/AllPublicXML 
     --dst ./data/OutputJSON
+
+python3 ct-json-to-parquet.py 
+    --src ./data/OutputJSON
+    --dst ./data/OutputPARQUET
 ```
+
+

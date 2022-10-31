@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 xmlschema = "*"
 orjson = "*"
+pandas = "*"
+pyarrow = "*"
 
 [dev-packages]
 
