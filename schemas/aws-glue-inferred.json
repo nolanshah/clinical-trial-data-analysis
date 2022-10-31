@@ -1,0 +1,646 @@
+{
+  "clinical_study": {
+    "acronym": "string",
+    "arm_group": [
+      {
+        "arm_group_label": "string",
+        "arm_group_type": "string",
+        "description": "string"
+      }
+    ],
+    "biospec_descr": {
+      "textblock": "string"
+    },
+    "biospec_retention": "string",
+    "brief_summary": {
+      "textblock": "string"
+    },
+    "brief_title": "string",
+    "clinical_results": {
+      "baseline": {
+        "analyzed_list": {
+          "analyzed": [
+            {
+              "count_list": {
+                "count": [
+                  {
+                    "count": "int",
+                    "count___group_id": "string",
+                    "count___value": "string"
+                  }
+                ]
+              },
+              "scope": "string",
+              "units": "string"
+            }
+          ]
+        },
+        "group_list": {
+          "group": [
+            {
+              "description": "string",
+              "group___group_id": "string",
+              "title": "string"
+            }
+          ]
+        },
+        "measure_list": {
+          "measure": [
+            {
+              "class_list": {
+                "class": [
+                  {
+                    "category_list": {
+                      "category": [
+                        {
+                          "measurement_list": {
+                            "measurement": [
+                              {
+                                "measurement": "string",
+                                "measurement___group_id": "string",
+                                "measurement___lower_limit": "string",
+                                "measurement___spread": "string",
+                                "measurement___upper_limit": "string",
+                                "measurement___value": "string"
+                              }
+                            ]
+                          },
+                          "title": "string"
+                        }
+                      ]
+                    },
+                    "title": "string",
+                    "analyzed_list": {
+                      "analyzed": [
+                        {
+                          "count_list": {
+                            "count": [
+                              {
+                                "count": "int",
+                                "count___group_id": "string",
+                                "count___value": "string"
+                              }
+                            ]
+                          },
+                          "scope": "string",
+                          "units": "string"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "description": "string",
+              "dispersion": "string",
+              "param": "string",
+              "title": "string",
+              "units": "string",
+              "population": "string",
+              "analyzed_list": {
+                "analyzed": [
+                  {
+                    "count_list": {
+                      "count": [
+                        {
+                          "count": "int",
+                          "count___group_id": "string",
+                          "count___value": "string"
+                        }
+                      ]
+                    },
+                    "scope": "string",
+                    "units": "string"
+                  }
+                ]
+              },
+              "units_analyzed": "string"
+            }
+          ]
+        },
+        "population": "string"
+      },
+      "certain_agreements": {
+        "pi_employee": "string",
+        "restrictive_agreement": "string"
+      },
+      "limitations_and_caveats": "string",
+      "outcome_list": {
+        "outcome": [
+          {
+            "analysis_list": {
+              "analysis": [
+                {
+                  "ci_lower_limit": "string",
+                  "ci_n_sides": "string",
+                  "ci_percent": "double",
+                  "ci_upper_limit": "string",
+                  "group_id_list": {
+                    "group_id": "string[]"
+                  },
+                  "groups_desc": "string",
+                  "method": "string",
+                  "method_desc": "string",
+                  "non_inferiority_type": "string",
+                  "p_value": "string",
+                  "p_value_desc": "string",
+                  "param_type": "string",
+                  "param_value": "string",
+                  "dispersion_type": "string",
+                  "dispersion_value": "string",
+                  "estimate_desc": "string",
+                  "non_inferiority_desc": "string",
+                  "other_analysis_desc": "string",
+                  "ci_upper_limit_na_comment": "string"
+                }
+              ]
+            },
+            "description": "string",
+            "group_list": {
+              "group": [
+                {
+                  "description": "string",
+                  "group___group_id": "string",
+                  "title": "string"
+                }
+              ]
+            },
+            "measure": {
+              "analyzed_list": {
+                "analyzed": [
+                  {
+                    "count_list": {
+                      "count": [
+                        {
+                          "count": "int",
+                          "count___group_id": "string",
+                          "count___value": "string"
+                        }
+                      ]
+                    },
+                    "scope": "string",
+                    "units": "string"
+                  }
+                ]
+              },
+              "class_list": {
+                "class": [
+                  {
+                    "category_list": {
+                      "category": [
+                        {
+                          "measurement_list": {
+                            "measurement": [
+                              {
+                                "measurement": "string",
+                                "measurement___group_id": "string",
+                                "measurement___lower_limit": "string",
+                                "measurement___spread": "string",
+                                "measurement___upper_limit": "string",
+                                "measurement___value": "string"
+                              }
+                            ]
+                          },
+                          "title": "string"
+                        }
+                      ]
+                    },
+                    "title": "string",
+                    "analyzed_list": {
+                      "analyzed": [
+                        {
+                          "count_list": {
+                            "count": [
+                              {
+                                "count": "int",
+                                "count___group_id": "string",
+                                "count___value": "string"
+                              }
+                            ]
+                          },
+                          "scope": "string",
+                          "units": "string"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "description": "string",
+              "dispersion": "string",
+              "param": "string",
+              "population": "string",
+              "title": "string",
+              "units": "string",
+              "units_analyzed": "string"
+            },
+            "population": "string",
+            "time_frame": "string",
+            "title": "string",
+            "type": "string",
+            "posting_date": "string"
+          }
+        ]
+      },
+      "participant_flow": {
+        "group_list": {
+          "group": [
+            {
+              "description": "string",
+              "group___group_id": "string",
+              "title": "string"
+            }
+          ]
+        },
+        "period_list": {
+          "period": [
+            {
+              "drop_withdraw_reason_list": {
+                "drop_withdraw_reason": [
+                  {
+                    "participants_list": {
+                      "participants": [
+                        {
+                          "participants": "int",
+                          "participants___count": "string",
+                          "participants___group_id": "string"
+                        }
+                      ]
+                    },
+                    "title": "string"
+                  }
+                ]
+              },
+              "milestone_list": {
+                "milestone": [
+                  {
+                    "participants_list": {
+                      "participants": [
+                        {
+                          "participants": "string",
+                          "participants___count": "string",
+                          "participants___group_id": "string"
+                        }
+                      ]
+                    },
+                    "title": "string"
+                  }
+                ]
+              },
+              "title": "string"
+            }
+          ]
+        },
+        "pre_assignment_details": "string",
+        "recruitment_details": "string"
+      },
+      "point_of_contact": {
+        "email": "string",
+        "name_or_title": "string",
+        "organization": "string",
+        "phone": "string"
+      },
+      "reported_events": {
+        "desc": "string",
+        "group_list": {
+          "group": [
+            {
+              "description": "string",
+              "group___group_id": "string",
+              "title": "string"
+            }
+          ]
+        },
+        "other_events": {
+          "category_list": {
+            "category": [
+              {
+                "event_list": {
+                  "event": [
+                    {
+                      "counts": [
+                        {
+                          "counts": "int",
+                          "counts___events": "bigint",
+                          "counts___group_id": "string",
+                          "counts___subjects_affected": "bigint",
+                          "counts___subjects_at_risk": "bigint"
+                        }
+                      ],
+                      "description": "string",
+                      "sub_title": "string",
+                      "assessment": "string",
+                      "sub_title___vocab": "string"
+                    }
+                  ]
+                },
+                "title": "string"
+              }
+            ]
+          },
+          "default_assessment": "string",
+          "default_vocab": "string",
+          "frequency_threshold": "string"
+        },
+        "serious_events": {
+          "category_list": {
+            "category": [
+              {
+                "event_list": {
+                  "event": [
+                    {
+                      "assessment": "string",
+                      "counts": [
+                        {
+                          "counts": "int",
+                          "counts___events": "bigint",
+                          "counts___group_id": "string",
+                          "counts___subjects_affected": "bigint",
+                          "counts___subjects_at_risk": "bigint"
+                        }
+                      ],
+                      "description": "string",
+                      "sub_title": "string",
+                      "sub_title___vocab": "string"
+                    }
+                  ]
+                },
+                "title": "string"
+              }
+            ]
+          },
+          "default_assessment": "string",
+          "default_vocab": "string"
+        },
+        "time_frame": "string"
+      }
+    },
+    "completion_date": "string",
+    "completion_date___type": "string",
+    "condition": "string[]",
+    "condition_browse": {
+      "mesh_term": "string[]"
+    },
+    "detailed_description": {
+      "textblock": "string"
+    },
+    "eligibility": {
+      "criteria": {
+        "textblock": "string"
+      },
+      "gender": "string",
+      "healthy_volunteers": "string",
+      "maximum_age": "string",
+      "minimum_age": "string",
+      "sampling_method": "string",
+      "study_pop": {
+        "textblock": "string"
+      },
+      "gender_based": "string",
+      "gender_description": "string"
+    },
+    "enrollment": "bigint",
+    "enrollment___type": "string",
+    "has_expanded_access": "string",
+    "id_info": {
+      "nct_alias": "string[]",
+      "nct_id": "string",
+      "org_study_id": "string",
+      "secondary_id": "string[]"
+    },
+    "intervention": [
+      {
+        "arm_group_label": "string[]",
+        "description": "string",
+        "intervention_name": "string",
+        "intervention_type": "string",
+        "other_name": "string[]"
+      }
+    ],
+    "intervention_browse": {
+      "mesh_term": "string[]"
+    },
+    "keyword": "string[]",
+    "last_known_status": "string",
+    "last_update_posted": "string",
+    "last_update_posted___type": "string",
+    "last_update_submitted": "string",
+    "last_update_submitted_qc": "string",
+    "link": [
+      {
+        "description": "string",
+        "url": "string"
+      }
+    ],
+    "location": [
+      {
+        "contact": {
+          "email": "string",
+          "last_name": "string",
+          "phone": "string",
+          "phone_ext": "string"
+        },
+        "facility": {
+          "address": {
+            "city": "string",
+            "country": "string",
+            "state": "string",
+            "zip": "string"
+          },
+          "name": "string"
+        },
+        "status": "string",
+        "contact_backup": {
+          "email": "string",
+          "last_name": "string",
+          "phone": "string",
+          "phone_ext": "string"
+        },
+        "investigator": [
+          {
+            "last_name": "string",
+            "role": "string"
+          }
+        ]
+      }
+    ],
+    "location_countries": {
+      "country": "string[]"
+    },
+    "number_of_arms": "bigint",
+    "number_of_groups": "bigint",
+    "official_title": "string",
+    "other_outcome": [
+      {
+        "description": "string",
+        "measure": "string",
+        "time_frame": "string"
+      }
+    ],
+    "overall_contact": {
+      "email": "string",
+      "last_name": "string",
+      "phone": "string",
+      "phone_ext": "string"
+    },
+    "overall_official": [
+      {
+        "affiliation": "string",
+        "last_name": "string",
+        "role": "string"
+      }
+    ],
+    "overall_status": "string",
+    "oversight_info": {
+      "has_dmc": "string",
+      "is_fda_regulated_device": "string",
+      "is_fda_regulated_drug": "string",
+      "is_us_export": "string",
+      "is_unapproved_device": "string",
+      "is_ppsd": "string"
+    },
+    "patient_data": {
+      "ipd_description": "string",
+      "sharing_ipd": "string",
+      "ipd_access_criteria": "string",
+      "ipd_info_type": "string[]",
+      "ipd_time_frame": "string",
+      "ipd_url": "string"
+    },
+    "pending_results": {
+      "returned": [
+        {
+          "returned": "string"
+        }
+      ],
+      "submitted": [
+        {
+          "submitted": "string"
+        }
+      ],
+      "submission_canceled": [
+        {
+          "submission_canceled": "string"
+        }
+      ]
+    },
+    "phase": "string",
+    "primary_completion_date": "string",
+    "primary_completion_date___type": "string",
+    "primary_outcome": [
+      {
+        "description": "string",
+        "measure": "string",
+        "time_frame": "string"
+      }
+    ],
+    "provided_document_section": {
+      "provided_document": [
+        {
+          "document_date": "string",
+          "document_has_icf": "string",
+          "document_has_protocol": "string",
+          "document_has_sap": "string",
+          "document_type": "string",
+          "document_url": "string"
+        }
+      ]
+    },
+    "reference": [
+      {
+        "PMID": "bigint",
+        "citation": "string"
+      }
+    ],
+    "removed_countries": {
+      "country": "string[]"
+    },
+    "required_header": {
+      "download_date": "string",
+      "link_text": "string",
+      "url": "string"
+    },
+    "responsible_party": {
+      "investigator_affiliation": "string",
+      "investigator_full_name": "string",
+      "investigator_title": "string",
+      "name_title": "string",
+      "organization": "string",
+      "responsible_party_type": "string"
+    },
+    "results_first_posted": "string",
+    "results_first_posted___type": "string",
+    "results_first_submitted": "string",
+    "results_first_submitted_qc": "string",
+    "results_reference": [
+      {
+        "PMID": "bigint",
+        "citation": "string"
+      }
+    ],
+    "secondary_outcome": [
+      {
+        "description": "string",
+        "measure": "string",
+        "time_frame": "string"
+      }
+    ],
+    "source": "string",
+    "sponsors": {
+      "collaborator": [
+        {
+          "agency": "string",
+          "agency_class": "string"
+        }
+      ],
+      "lead_sponsor": {
+        "agency": "string",
+        "agency_class": "string"
+      }
+    },
+    "start_date": "string",
+    "start_date___type": "string",
+    "study_design_info": {
+      "allocation": "string",
+      "intervention_model": "string",
+      "intervention_model_description": "string",
+      "masking": "string",
+      "masking_description": "string",
+      "observational_model": "string",
+      "primary_purpose": "string",
+      "time_perspective": "string"
+    },
+    "study_docs": {
+      "study_doc": [
+        {
+          "doc_comment": "string",
+          "doc_id": "string",
+          "doc_type": "string",
+          "doc_url": "string"
+        }
+      ]
+    },
+    "study_first_posted": "string",
+    "study_first_posted___type": "string",
+    "study_first_submitted": "string",
+    "study_first_submitted_qc": "string",
+    "study_type": "string",
+    "verification_date": "string",
+    "why_stopped": "string",
+    "disposition_first_posted": "string",
+    "disposition_first_posted___type": "string",
+    "disposition_first_submitted": "string",
+    "disposition_first_submitted_qc": "string",
+    "overall_contact_backup": {
+      "email": "string",
+      "last_name": "string",
+      "phone": "string",
+      "phone_ext": "string"
+    },
+    "target_duration": "string",
+    "expanded_access_info": {
+      "expanded_access_type_treatment": "string",
+      "expanded_access_type_intermediate": "string",
+      "expanded_access_type_individual": "string"
+    }
+  }
+}
